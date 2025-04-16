@@ -1,10 +1,11 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
-
-.hero, .footer{
+.hero, .footer, .header {
     background-color: #1F2937;
 }
 
@@ -48,4 +49,80 @@ button, .cta {
 .footer {
     color: white;
     text-align: center;
+}
+
+.header, .hero, .boxes, .cta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.heading-link {
+    display: flex;
+    gap: 16px;
+}
+
+.hero {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.hero-right {
+    background-color: grey;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding-bottom: 60px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-image {
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px;
+}
+.quote-author {
+    text-align: end;
+    font-weight: 900;
+}
+
+.cta h3, .cta p {
+    color: white;
+}
+
+#cta-button {
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: white;
 }
