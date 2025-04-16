@@ -1,0 +1,1 @@
+This is a quick landing page produced for the odin project as consolidation of HTML and CSS basics.
